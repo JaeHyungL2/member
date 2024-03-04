@@ -14,9 +14,9 @@ import lombok.*;
 //  필드는 private로 감추곤함..그래서 세터,게터메소드가 필요하게됨.. 간접적으로 접근하기위해.ㅋ   (
 public class MemberDTO {
     private Long id;
-    private String memberEmail;
-    private String memberPassword;
-    private String memberName;
+    private String Email;
+    private String Password;
+    private String Name;
 
 }
 //이정도면됨 ㅋ 비닐봉다리는 ㅋ 거의고정이라 이정도면 왠만한 소통엔 문제없어짐..
